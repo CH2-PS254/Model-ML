@@ -3,7 +3,7 @@
 <!-- Button and Banner-->
 
 <!-- Describe your project in brief -->
-Create a machine learning model with neural network architecture and TensorFlow lite as the model format, use MoveNet as a data augmentation tool to obtain landmark coordinates, and preprocess the data using the concept of reshaping input and normalizing data.
+Create machine learning models with neural network architecture and TensorFlow lite as the model format. The dataset used is broken down into training, validation, and testing. The image dataset will be processed using MoveNet as a data augmentation tool to obtain landmark coordinates, and then the data will be processed using input reshaping and data normalization. The training model uses the keras.Sequential method where the model results will be exported in .tflite format.
 
 # **Table of Contents**
 

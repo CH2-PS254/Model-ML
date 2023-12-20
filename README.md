@@ -19,10 +19,10 @@ This is where your installation instructions go.
 You can add snippets here that your readers can copy-paste with click:
 
 ```shell
-git clone https://github.com/NgakanWidyasprana/RelaVerse-ML
+git clone https://github.com/CH2-PS254/Model-ML
 ```
 
-After you clone, you can run the jupiter notebook (*download jupiter first*) :
+After you clone, you can run the main.py  :
 
 ```shell
 ipython notebook "python/Text_Classification.ipynb"

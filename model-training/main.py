@@ -12,8 +12,8 @@ import tensorflow as tf
 import wget
 import matplotlib.pyplot as plt
 
-if 'movenet_thunder1.tflite' not in os.listdir():
-    wget.download('https://tfhub.dev/google/lite-model/movenet/singlepose/lightning/tflite/float16/4?lite-format=tflite', 'movenet_thunder.tflite')
+if 'movenet_thunder.tflite' not in os.listdir():
+    wget.download('https://tfhub.dev/google/lite-model/movenet/singlepose/thunder/tflite/float16/4?lite-format=tflite', 'movenet_thunder.tflite')
 
 class Landmark(enum.Enum):
     NOSE = 0

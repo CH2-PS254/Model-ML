@@ -24,7 +24,7 @@ git clone https://github.com/CH2-PS254/Model-ML
 After you clone, you can run the main.py  :
 
 ```shell
-"python main.py"
+python main.py
 ```
 
 Make sure that Python and all the required libraries are installed

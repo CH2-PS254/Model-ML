@@ -7,13 +7,12 @@ Create machine learning models with neural network architecture and TensorFlow l
 
 # **Table of Contents**
 
-- [Project Title](#easeyoga-(Bangkit-Team-CH2-PS254))
 - [Machine-Learning](#easeyoga-(machine-learning))
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
-
+- [Necessary Libraries](#necessary-libraries)
+  
 # **Installation** 
-[(Back to Top)](#table-of-contents)
 
 This is where your installation instructions go.
 You can add snippets here that your readers can copy-paste with click:
@@ -25,18 +24,14 @@ git clone https://github.com/CH2-PS254/Model-ML
 After you clone, you can run the main.py  :
 
 ```shell
-ipython notebook "python/Text_Classification.ipynb"
+"python main.py"
 ```
 
-or
+Make sure that Python and all the required libraries are installed
 
-```shell
-jupyter notebook "python/Text_Classification.ipynb"
-```
+# **Necessary Libraries** 
 
-This will open the Jupyter Notebook software and project file in your browser.
-
-This project requires **Python** and the following Python libraries installed:
+This machine learning model requires the following Python libraries installed:
 
 - [enum](https://docs.python.org/3/library/enum.html)
 - [typing](https://docs.python.org/3/library/typing.html)
@@ -48,3 +43,5 @@ This project requires **Python** and the following Python libraries installed:
 - [scikit-learn](https://scikit-learn.org/)
 - [tensorflow](https://www.tensorflow.org/api_docs)
 - [wget](https://ftp.gnu.org/gnu/wget/)
+
+[(Back to Top)](#table-of-contents)
